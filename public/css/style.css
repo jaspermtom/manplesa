@@ -229,6 +229,20 @@ div.fc-scrollgrid-sync-inner:not(.fc-daygrid-day-frame) {
   box-shadow: var(--button-box-shadow);
 }
 
+/* Button styling for main CTA "Submit an Event!" */
+.button-link{
+    color: var(--border-outer);
+    font-family: 'ChicagoFLF';
+    font-size: min(1.2em);
+    background-color: var(--background-inner);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid var(--border-outer);
+    box-shadow: var(--button-box-shadow);
+    text-decoration: none;
+}
+
 .fc-daygrid-week-number::before {
   content: ''; /* Required for the pseudo-element to be generated */
   position: absolute;
